@@ -6,34 +6,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: two-photon microscopy technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 7179279294
-  numberOfFiles: 5
-  numberOfSubjects: 3
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7227
-    name: Drosophila melanogaster - Fruit fly
-    schemaKey: SpeciesType
-  variableMeasured:
-  - OpticalChannel
-  - TwoPhotonSeries
-  - ProcessingModule
-  - ImagingPlane
-  - PlaneSegmentation
 citation: Cowley, Benjamin (2024) Dataset for Mapping model units to visual neurons
   reveals population code for social behavior (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000951/draft
