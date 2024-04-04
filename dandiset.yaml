@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000951
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -24,9 +25,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 405204667092
-  numberOfFiles: 688
-  numberOfSubjects: 246
+  numberOfBytes: 486506743673
+  numberOfFiles: 1413
+  numberOfSubjects: 486
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_7227
@@ -40,17 +41,58 @@ assetsSummary:
   - TwoPhotonSeries
   - BehavioralTimeSeries
   - SpatialSeries
-citation: Cowley, Benjamin (2024) Dataset for Mapping model units to visual neurons
+citation: Cowley, Benjamin; Calhoun, Adam; Rangarajan, Nivedita; Ireland, Elise; Pillow,
+  Jonathan; Murthy, Mala (2024) Dataset for Mapping model units to visual neurons
   reveals population code for social behavior (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000951/draft
 contributor:
-- affiliation: []
-  email: benjo.cowley@gmail.com
+- affiliation:
+  - identifier: https://ror.org/02qz8b764
+    name: Cold Spring Harbor Laboratory
+    schemaKey: Affiliation
+  email: cowley@cshl.edu
+  identifier: 0000-0003-2681-2448
   includeInCitation: true
   name: Cowley, Benjamin
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+  url: https://cowleygroup.cshl.edu/
+- awardNumber: Simons Collaboration on the Global Brain Postdoctoral Fellowship
+  identifier: 0000-0001-9347-7956
+  includeInCitation: true
+  name: Calhoun, Adam
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Rangarajan, Nivedita
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Ireland, Elise
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: The Simons Collaboration on the Global Brain Investigator Awards and
+    NIH BRAIN Initiative Award (R01 NS104899)
+  includeInCitation: true
+  name: Pillow, Jonathan
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+  url: https://pillowlab.princeton.edu/
+- awardNumber: The Simons Collaboration on the Global Brain Investigator Awards and
+    NIH BRAIN Initiative Award (R01 NS104899), and an HHMI Faculty Scholar Award and
+    NINDS R35 Research Program Award.
+  identifier: 0000-0003-3063-3389
+  includeInCitation: true
+  name: Murthy, Mala
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+  url: https://murthylab.princeton.edu/
 dateCreated: '2024-04-01T14:10:35.958040+00:00'
 description: This is the dataset for the paper "Mapping model units to visual neurons
   reveals population code for social behavior". It contains 459 fruit fly courtship
@@ -59,16 +101,28 @@ description: This is the dataset for the paper "Mapping model units to visual ne
   labels, male behavior, and reconstructed stimuli. The dataset also contains calcium
   imaging data of male flies for 5 different LC neuron types, including raw TIF images
   and processed dF/F responses.
+ethicsApproval: []
 id: DANDI:000951/draft
 identifier: DANDI:000951
+keywords:
+- Drosophila, fruit fly, courtship, social behavior, genetic silencing, knockout,
+  behavior, visual projection neuron, LC neuron, optic glomeruli, calcium imaging
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000951/versions/draft/assets/
 name: Dataset for Mapping model units to visual neurons reveals population code for
   social behavior
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
+studyTarget:
+- We asked which visual projection (or LC) neuron types contributed to a male fruit
+  fly's courtship behavior. We silenced 23 different LC types individually and observed
+  courtship behavior between a pair of male and female fruit flies. We also recorded
+  from 5 different LC types of male fruit flies with calcium imaging.
 url: https://dandiarchive.org/dandiset/000951/draft
 version: draft
+wasGeneratedBy: []
