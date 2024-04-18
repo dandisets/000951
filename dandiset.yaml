@@ -94,13 +94,14 @@ contributor:
   schemaKey: Person
   url: https://murthylab.princeton.edu/
 dateCreated: '2024-04-01T14:10:35.958040+00:00'
+datePublished: '2024-04-18T22:18:03.298125+00:00'
 description: This is the dataset for the paper "Mapping model units to visual neurons
-  reveals population code for social behavior". It contains 459 fruit fly courtship
-  sessions, where 23 different LC neuron types have been silenced in male fruit flies.  The
-  data comprise raw camera recordings, processed SLEAP joint position tracks, song
-  labels, male behavior, and reconstructed stimuli. The dataset also contains calcium
-  imaging data of male flies for 5 different LC neuron types, including raw TIF images
-  and processed dF/F responses.
+  reveals population code for social behavior" from Cowley et al., 2024. It contains
+  459 fruit fly courtship sessions, where 23 different LC neuron types have been silenced
+  in male fruit flies.  The data comprise raw camera recordings, processed SLEAP joint
+  position tracks, song labels, male behavior, and reconstructed stimuli. The dataset
+  also contains calcium imaging data of male flies for 5 different LC neuron types,
+  including raw TIF images and processed dF/F responses.
 ethicsApproval: []
 id: DANDI:000951/draft
 identifier: DANDI:000951
@@ -114,6 +115,18 @@ manifestLocation:
 name: Dataset for Mapping model units to visual neurons reveals population code for
   social behavior
 protocol: []
+publishedBy:
+  endDate: '2024-04-18T22:18:03.298125+00:00'
+  id: urn:uuid:73a2cd03-f85f-4fb6-845c-8118aa5bdb87
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-04-18T22:18:03.298125+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:bfc79dfe-cd38-4eaa-8ef3-99534f485c66
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
