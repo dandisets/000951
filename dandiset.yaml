@@ -43,8 +43,8 @@ assetsSummary:
   - SpatialSeries
 citation: Cowley, Benjamin; Calhoun, Adam; Rangarajan, Nivedita; Ireland, Elise; Pillow,
   Jonathan; Murthy, Mala (2024) Dataset for Mapping model units to visual neurons
-  reveals population code for social behavior (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000951/draft
+  reveals population code for social behavior (Version 0.240418.2218) [Data set].
+  DANDI archive. https://doi.org/10.48324/dandi.000951/0.240418.2218
 contributor:
 - affiliation:
   - identifier: https://ror.org/02qz8b764
@@ -102,8 +102,9 @@ description: This is the dataset for the paper "Mapping model units to visual ne
   position tracks, song labels, male behavior, and reconstructed stimuli. The dataset
   also contains calcium imaging data of male flies for 5 different LC neuron types,
   including raw TIF images and processed dF/F responses.
+doi: 10.48324/dandi.000951/0.240418.2218
 ethicsApproval: []
-id: DANDI:000951/draft
+id: DANDI:000951/0.240418.2218
 identifier: DANDI:000951
 keywords:
 - Drosophila, fruit fly, courtship, social behavior, genetic silencing, knockout,
@@ -111,7 +112,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000951/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000951/0.240418.2218/assets.yaml
 name: Dataset for Mapping model units to visual neurons reveals population code for
   social behavior
 protocol: []
@@ -136,6 +137,6 @@ studyTarget:
   fly's courtship behavior. We silenced 23 different LC types individually and observed
   courtship behavior between a pair of male and female fruit flies. We also recorded
   from 5 different LC types of male fruit flies with calcium imaging.
-url: https://dandiarchive.org/dandiset/000951/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000951/0.240418.2218
+version: 0.240418.2218
 wasGeneratedBy: []
